@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const appliances = {
         Nevera: 100,
         tv: 50,
-        "washing-machine": 500,
+        "Lavadora": 500,
         Microondas: 800,
         Tostadora: 700,
         "Cafetera": 900,
