@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const appliances = {
         Nevera: 100,
         tv: 50,
-        Lavadora: 500,
+        "Lavadora": 500,
         Microondas: 800,
         Tostadora: 700,
         "Cafetera": 900,
@@ -49,6 +49,6 @@ document.addEventListener("DOMContentLoaded", function () {
         const costElement = document.getElementById("cost");
 
         consumptionElement.innerHTML = `Consumo para ${appliance}: ${consumption.toFixed(2)} kWh`;
-        costElement.innerHTML = `Costo para ${appliance}: ${cost.toFixed(2)} moneda local`;
+        costElement.innerHTML = `Costo para ${appliance}: ${cost.toFixed(2)} €`;
     }
 });

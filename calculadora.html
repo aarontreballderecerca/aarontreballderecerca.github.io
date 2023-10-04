@@ -28,7 +28,7 @@
                             <a href="#" class="menu__link menu__link--inside">Calculadora</a>
                         </li>
                         <li class="menu__inside">
-                            <a href="estadisticas.html" class="menu__link menu__link--inside">Estadisticas del precio a lo largo del tiempo</a>
+                            <a href="estadisticas.html" class="menu__link menu__link--inside">Variaciones del Precio a lo Largo del Tiempo</a>
                         </li>
                         <li class="menu__inside">
                             <a href="consejos.html" class="menu__link menu__link--inside">Como ahorrar</a>
@@ -61,7 +61,7 @@
     
 
     <form id="calculator">
-        <label for="appliance">Electrodoméstico:</label>
+       <h2> <label for="appliance">Electrodoméstico:</label></h2>
         <select id="appliance" name="appliance">
             <option value="Nevera">Nevera (100W)</option>
             <option value="tv">Televisor (50W)</option>
@@ -86,27 +86,35 @@
             <!-- Agrega más opciones aquí -->
         </select>
         <br>
-        <label for="power">Potencia (W):</label>
+       <h2> <label for="power">Potencia (W):</label></h2>
         <input type="number" id="power" name="power" required>
         <br>
-        <label for="hours">Horas de uso por día:</label>
+        <h2>  <label for="hours">Horas de uso por día:</label></h2>
         <input type="number" id="hours" name="hours" required>
         <br>
-        <label for="price">Precio por kWh:</label>
+        <h2>  <label for="price">Precio por kWh:</label></h2>
         <input type="number" id="price" name="price" step="0.01" required>
         <br>
         <button type="button" id="calculateButton">Calcular Consumo</button>
     </form>
     <div id="result">
-        <div id="consumption"></div>
-        <div id="cost"></div>
+      <h1>  <div id="consumption"></div>
+        <div id="cost"></div></h1>
     </div>
     <script src="js/rec.js"></script>
 
-<main>
-     <a href="https://tarifaluzhora.es/">Consulta el precio de la luz hoy: Detalles y Evolución de la tarifa PVPC </a>
-</main>
-    
+
+
+
+
+    <main>
+       
+        <p>
+            Con esta web podrás saber el precio exacto de la electricidad, así puedes añadir el valor del momento en la calculadora y calcular lo que necesites.
+            </p> <a href="https://tarifaluzhora.es/">Consulta el precio de la luz hoy: Detalles y Evolución de la tarifa PVPC </a>
+   </main>
+
+
 </body>
 
 

@@ -8,12 +8,28 @@
 }
 h1{
 font-size: 25px;
-
-
-
-
+font-family: 'Poppins', sans-serif;
 
 }
+
+h2{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    
+    }
+
+
+
+p{
+
+line-height: 100px;
+margin: 30px;
+    
+}
+
+
+
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #FFFF00;
@@ -27,6 +43,7 @@ main {
     font-family: 'Poppins', sans-serif;
     background-color: #ffffff;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .menu{
